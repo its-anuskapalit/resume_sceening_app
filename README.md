@@ -14,3 +14,27 @@ This project is a **Resume Screening Application** powered by **Machine Learning
 ```bash
 git clone https://github.com/yourusername/resume-screening-model.git
 cd resume-screening-model
+```
+### 2️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3️⃣ Run the Streamlit App
+``` bash
+streamlit run app.py
+```
+### 🛠️ Technologies Used
+Python
+Streamlit
+Scikit-learn
+TF-IDF Vectorization
+SVM Classifier
+PyPDF2 & python-docx (for text extraction)
+### 🎯 Use Cases
+HR & Recruitment: Automate resume screening and categorization.
+Job Portals: Improve job-matching efficiency.
+Career Guidance: Help individuals understand their career fit.
+### 📌 Future Improvements
+Improve classification accuracy with deep learning models.
+Support more resume formats (e.g., HTML).
+Enhance UI with interactive visualizations.
